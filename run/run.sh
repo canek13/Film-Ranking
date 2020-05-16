@@ -16,7 +16,7 @@ chmod 0777 $SOURCE_BASE_PATH/src/collect_user_statistics_mapper0.py
 chmod 0777 $SOURCE_BASE_PATH/src/collect_user_statistics_reducer0.py
 
 hadoop_streaming_arguments="\
-		-D mapreduce.job.reduces=8 \
+		-D mapreduce.job.reduces=6 \
 		-file $SOURCE_BASE_PATH/src/collect_user_statistics_mapper0.py -mapper collect_user_statistics_mapper0.py \
 		-file $SOURCE_BASE_PATH/src/collect_user_statistics_reducer0.py -reducer collect_user_statistics_reducer0.py \
 		-input $INPUT_DIR/* -output $OUTPUT_DIR \
