@@ -1,6 +1,8 @@
 SOURCE_BASE_PATH="$HOME/hadoop"
 echo $SOURCE_BASE_PATH
 
+cp $SOURCE_BASE_PATH/data/movies.csv $SOURCE_BASE_PATH/output4
+
 INPUT_DIR="/hadoop/input"
 OUTPUT_DIR="/hadoop/output"
 
