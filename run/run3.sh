@@ -1,6 +1,14 @@
 SOURCE_BASE_PATH="$HOME/hadoop"
 echo $SOURCE_BASE_PATH
 
+cat $SOURCE_BASE_PATH/output0/part-00000 >> $SOURCE_BASE_PATH/output2/part-00000
+cat $SOURCE_BASE_PATH/output0/part-00001 >> $SOURCE_BASE_PATH/output2/part-00001
+cat $SOURCE_BASE_PATH/output0/part-00002 >> $SOURCE_BASE_PATH/output2/part-00002
+cat $SOURCE_BASE_PATH/output0/part-00003 >> $SOURCE_BASE_PATH/output2/part-00003
+cat $SOURCE_BASE_PATH/output0/part-00004 >> $SOURCE_BASE_PATH/output2/part-00004
+cat $SOURCE_BASE_PATH/output0/part-00005 >> $SOURCE_BASE_PATH/output2/part-00005
+cat $SOURCE_BASE_PATH/output0/part-00006 >> $SOURCE_BASE_PATH/output2/part-00006
+
 INPUT_DIR="/hadoop/input"
 OUTPUT_DIR="/hadoop/output"
 
