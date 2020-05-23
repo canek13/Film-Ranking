@@ -8,7 +8,7 @@
   For this job google cloude services were used.
   In the free trial was created a cluster: 1 NameNode with 2 CPU and 3 Workers with 2 CPU each.
 # Data
-  The dataset was loaded from here https://grouplens.org/datasets/movielens/latest/.
+  The dataset was loaded from here https://grouplens.org/datasets/movielens/latest/. <br>
   The answer is placed in "answer.txt".
   
   P.S. unfortunatly here is only the result of prediction for small dataset.
