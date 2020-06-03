@@ -25,11 +25,7 @@ for line in sys.stdin:
         for not_w in not_watched:
             for i,w in enumerate(watched):
                 if not_w < w:
-                    if (not_w, w) in existed_sim:
-                    #if np.intersect1d(np.where(f1 == not_w)[0], np.where(f2 == w)[0], assume_unique=True).size > 0:
                         print(str(not_w) +','+ str(w) +','+ key +',1\t'+ str(ratings[i]))
                 else:
-                    if (w, not_w) in existed_sim:
-                    #if np.intersect1d(np.where(f1 == w)[0], np.where(f2 == not_w)[0], assume_unique=True).size > 0:
                         print(str(w) +','+ str(not_w) +','+ key +',2\t'+ str(ratings[i]))
 
